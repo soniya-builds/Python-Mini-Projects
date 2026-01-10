@@ -56,14 +56,14 @@ else:
     secret=random.choice(easy_words)
 
 attempts=0
-print("\nGuess the secret password")
+print("\nGuess the secret password!")
 
 while True:
     guess = input("Enter your guess: ").lower()
     attempts += 1
 
     if guess == secret:
-        print(f"Congrats! You guessed it right in {attempts} attempts")
+        print(f"Congrats!You guessed it right in {attempts} attempts")
         break
     else:
         hint = ""
@@ -74,6 +74,6 @@ while True:
                 hint += "_"
         print("Hint:", hint)
 
-print("Game Over")
+print("Game Over!")
         
         
