@@ -25,9 +25,11 @@ medium_words = [
     "coffee"
 ]
 hard_words = [
+    "siyamahmed",
     "computer",
     "elephant",
     "building",
+    "Dipanwita"
     "language",
     "password",
     "mountain",
